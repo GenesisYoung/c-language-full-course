@@ -11,26 +11,26 @@
  * variable.
  * */ 
 int main(){
-    int age=24;
+    // int age=24;
     /**
      * Get the pointer of age, because age is a integer type,
      * we need use a integer pointer to store the pointer. '&'
      * is used to referece the pointer of the variable
      * */ 
-    int * pAge=&age;
+    // int * pAge=&age;
     /**
      * Now we will get the pointer of age, the physical address of 
      * age
      * */ 
-    printf("%p\n",pAge);
+    // printf("%p\n",pAge);
     /**
      * We use the '*' to dereference the pointer, now we get original
      * value of age
      * */ 
-    printf("%d\n",*pAge);
+    // printf("%d\n",*pAge);
     /**
      * Use '&' to refernce the pointer again
      * */ 
-    printf("%p\n",&*pAge);
+    // printf("%p\n",&*pAge);
 
 }
